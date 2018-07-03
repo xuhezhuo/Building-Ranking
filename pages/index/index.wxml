@@ -1,0 +1,21 @@
+<view class='container' style='height: {{height}}px;'>
+  <view class='title text-center'>
+    <view>
+      中国
+      <text class='orange'>34</text>个省，
+      <text class='orange'>660</text>个城市
+    </view>
+    <view class='know'>
+      你知道有多少高楼吗？
+    </view>
+  </view>
+
+  <view class='btn-wrapper'>
+    <view class='text-center'>
+      <button class='btn1' bindtap='openAreaWin'>开始</button>
+    </view>
+    <view class='text-center bt2'>
+      <navigator class='btn2' target="miniProgram" open-type="navigate" app-id='wx06d10e4e7baa8307'>更多好玩</navigator>
+    </view>
+  </view>
+</view>

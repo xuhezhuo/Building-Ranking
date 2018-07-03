@@ -1,0 +1,41 @@
+.container {
+  color: #fff;
+  padding-top: 100rpx;
+  font-size: 45rpx;
+  background: linear-gradient(to bottom, #274b7c, #2c3344); /* 标准的语法 */
+}
+
+.know{
+  margin-top: 30rpx;
+}
+
+.orange{
+  color: #f9b23d;
+  font-size: 68rpx;
+}
+
+.btn-wrapper{
+  margin-top: 72%;
+}
+
+.btn1{
+  display: unset;
+  color: #fff;
+  font-size: 36rpx;
+  padding: 24rpx 208rpx; 
+  background-color: #eb4b50;
+  border-radius: 25rpx;
+}
+
+.bt2{
+  margin-top: 50rpx;  
+}
+
+.btn2{
+  display: unset;
+  color: #fff;
+  font-size: 36rpx;
+  padding: 24rpx 170rpx; 
+  background-color: #72c131;
+  border-radius: 25rpx;  
+}

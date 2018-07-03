@@ -1,0 +1,51 @@
+.container{
+  position: relative;
+  background: linear-gradient(to bottom, #2a3e5d, #274b7c);  
+}
+
+.canvas{
+   position: fixed; 
+}
+
+.footer{
+  position: fixed; 
+  width: 100%;
+  height: 120rpx;
+  color: #fff;
+  background-color: rgba(120, 120, 120, .4); 
+  font-size: 29rpx;
+  z-index: 999;
+  transition: .6s;
+}
+
+.img{
+  width: 42rpx;
+}
+
+.title{
+  margin-top: 6rpx;
+}
+
+.col-33{
+   padding-top: 12rpx; 
+}
+
+.serv{
+  position: relative;
+}
+
+.btn{
+  display: unset; 
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  left: 0;
+  top: 0;
+  background: transparent;
+}
+
+.img-wrapper{
+  /* opacity: 0; */
+  transition: opacity 1s linear 2s;
+}
+

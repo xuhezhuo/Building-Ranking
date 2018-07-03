@@ -1,0 +1,39 @@
+<view class='container'>
+  <canvas class='canvas' canvas-id='rank' style='width: {{width}}px; height: {{height}}px;' animation='{{animationData}}'></canvas>
+
+  <view class='img-wrapper'>
+    <image  style='width: {{width}}px; height: {{height}}px; opacity: {{show ? "1" : "0"}};' src='{{img}}'></image>
+  </view>
+
+  <view class='footer flex-row' style='bottom: {{ show ? "0rpx" : "-120rpx;"  }}'>
+    <view class='col-10'></view>
+    <view class='col-80 flex-row'>
+      <view class='col-33 text-center serv'>
+        <button class='btn' open-type="share"></button>
+        <view class='image'>
+          <image class='img' style='width: 48rpx;' mode='widthFix' src='../images/share.png'></image>
+        </view>
+        <view class='title'  style='margin-top: 12rpx;' >
+          转发
+        </view>
+      </view>
+      <view class='col-33 text-center' bindtap='saveAsPic'>
+        <view class='image'>
+          <image class='img' style='width: 36rpx;' mode='widthFix' src='../images/save.png'></image>
+        </view>
+        <view class='title'>
+          保存&分享
+        </view>
+      </view>
+      <view class='col-33 text-center' bindtap='back'>
+        <view class='image'>
+          <image class='img'  mode='widthFix' src='../images/react.png'></image>
+        </view>
+        <view class='title'>
+          重选
+        </view>
+      </view>
+    </view>
+    <view class='col-10'></view>
+  </view>
+</view>

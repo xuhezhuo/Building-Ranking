@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='flex-row'>
+    <view class='nav col-25' style='height: {{height}}px'>
+      <view class='category text-center {{ active == "热门" ? "active" : ""}}'  bindtap='hotClick'>
+        热门
+        <view class='border bg-default-col' wx:if='{{active == "热门"}}'></view>
+      </view>
+      <view class='category text-center {{ active == item ? "active" : ""}}' data-tab='{{item}}' bindtap='tab' wx:for='{{proList}}' wx:key='{{index}}'>
+        {{item}}
+        <view class='border bg-default-col' wx:if='{{active == item}}'></view>
+      </view>
+    </view>
+
+    <view class='section col-75'>
+      <view class='item col-30' wx:for='{{cityList}}' wx:key='{{index}}'>
+        <view class='text-center city {{ city == item.cityName ? "active" : "" }}' data-city='{{item.cityName}}' bindtap='cityClick'>
+          {{item.cityName}}
+        </view>
+      </view>
+      
+      <button class='btn' bindtap='submit' wx:if='{{city != ""}}'>提交</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",    
+    "pages/index/rank",    
+    "pages/index/area"   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#274b7c",
+    "navigationBarTitleText": "中国高楼排行",
+    "navigationBarTextStyle":"white"
+  }
+}
